@@ -37,4 +37,10 @@ jobs:
         run: go version
 
       - name: Run test suite
-        run: make vet lint test
+        run: make vet lint coverage
+
+      - name: Upload test coverage
+        uses: coverallsapp/github-action@v2
+        with:
+          file: coverprofile.out
+          format: golang
