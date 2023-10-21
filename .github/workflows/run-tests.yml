@@ -1,4 +1,4 @@
-name: Run test suite and calculate coverage
+name: tests
 
 on:
   workflow_dispatch:
