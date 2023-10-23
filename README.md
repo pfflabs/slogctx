@@ -2,6 +2,7 @@
 
 [![Test Status][tests-badge]][tests-link]
 [![Coverage Status][cov-badge]][cov-link]
+[![Go Report Card][grc-badge]][grc-link]
 [![License][license-badge]][license-link]
 [![Go Reference][docs-badge]][docs-link]
 
@@ -21,6 +22,8 @@ Released under the [Apache 2.0 License].
 [tests-link]: https://github.com/pfflabs/slogctx/actions/workflows/run-tests.yml
 [cov-badge]: https://coveralls.io/repos/github/pfflabs/slogctx/badge.svg?branch=main
 [cov-link]: https://coveralls.io/github/pfflabs/slogctx?branch=main
+[grc-badge]: https://goreportcard.com/badge/github.com/pfflabs/slogctx
+[grc-link]: https://goreportcard.com/report/github.com/pfflabs/slogctx
 [license-badge]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
 [license-link]: https://github.com/pfflabs/slogctx/blob/main/LICENSE
 [docs-badge]: https://pkg.go.dev/badge/github.com/pfflabs/slogctx.svg
